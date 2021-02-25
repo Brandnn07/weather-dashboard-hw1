@@ -1,0 +1,35 @@
+.card-header {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+.currentDisplay {
+    display: table-row;
+}
+.currentDisplay h1 {
+    font-size: 60px;
+}
+.currentDisplay li {
+    font-size: 26px;
+    list-style-type: none;
+}
+#test {
+    display: table-row;
+    font-size: 45px;
+  }
+#testDate {
+    font-size: 30px;
+}
+.weatherCards {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 20px;
+    margin: 50px;
+    align-items: center;
+}
+#firstRender{
+    list-style-type: none;
+}

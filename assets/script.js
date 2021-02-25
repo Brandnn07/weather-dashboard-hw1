@@ -100,8 +100,6 @@ weekBtn.addEventListener('click', function(event) {
         var container3 = document.getElementById("Wednesday");
         var container4 = document.getElementById("Thursday");
         var container5 = document.getElementById("Friday");
-        for( var i = 1; i <= 1; i++)
-{
 	    var el = document.createElement("header");
         var elDate1 = document.createElement("h2");
         var elDate2 = document.createElement("h3");
@@ -160,7 +158,7 @@ weekBtn.addEventListener('click', function(event) {
         
         
         
-}
+
     })
 })
 

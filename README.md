@@ -1,1 +1,1 @@
-# weather-dashboard-hw1
+# Weather-Dashboard

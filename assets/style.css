@@ -13,13 +13,6 @@
     font-size: 26px;
     list-style-type: none;
 }
-#test {
-    display: table-row;
-    font-size: 45px;
-  }
-#testDate {
-    font-size: 30px;
-}
 .weatherCards {
     display: flex;
     -ms-flex-wrap: wrap;
@@ -32,4 +25,15 @@
 }
 #firstRender{
     list-style-type: none;
+}
+li {
+    list-style: none;
+}
+.cardT {
+    padding: 20px;
+}
+.historyList {
+    display: flex;
+    margin: 10px;
+    border-right: 100px;
 }

@@ -21,7 +21,7 @@
       <a href="#" class="btn btn-primary" id="searchBtn">Search</a>
       <a href="#" class="btn btn-primary" id="weekBtn">Show week</a>
       <h6>Your last searched</h6>
-      <li id="firstRender" class="btn btn-primary" type="text"></li>
+      <div id="historyList"></div>
     </div>
   </div>
   <div class="currentDisplay">
@@ -33,11 +33,36 @@
   </div>
   <div id="cityName"></div>
   <div class="weatherCards">
-    <div id="Monday" class="col-md-2 style text-white bg-primary mr-3"><div id="x"></div> </div>
-    <div id="Tuesday" class="col-md-2 style text-white bg-primary mr-3"></div>
-    <div id="Wednesday" class="col-md-2 style text-white bg-primary mr-3"></div>
-    <div id="Thursday" class="col-md-2 style text-white bg-primary mr-3"></div>
-    <div id="Friday" class="col-md-2 style text-white bg-primary mr-3"></div>
+    <div id="Monday" class="cardT col-md-2 style text-white bg-primary mr-3">
+      <h2 id="mondayCard">Monday</h2>
+      <li id="temp0"></li>
+      <li id="humidity0"></li>
+      <img id="icon0" src="" alt="">
+    </div>
+    <div id="Tuesday" class="cardT col-md-2 style text-white bg-primary mr-3">
+      <h2 id="tuesdayCard">Tuesday</h2>
+      <li id="temp1"></li>
+      <li id="humidity1"></li>
+      <img id="icon1" src="" alt="">
+    </div>
+    <div id="Wednesday" class="cardT col-md-2 style text-white bg-primary mr-3">
+      <h2 id="wednesdayCard">Wednesday</h2>
+      <li id="temp2"></li>
+      <li id="humidity2"></li>
+      <img id="icon2" src="" alt="">
+    </div>
+    <div id="Thursday" class="cardT col-md-2 style text-white bg-primary mr-3">
+      <h2 id="thursdayCard">Thursday</h2>
+      <li id="temp3"></li>
+      <li id="humidity3"></li>
+      <img id="icon3" src="" alt="">
+    </div>
+    <div id="Friday" class="cardT col-md-2 style text-white bg-primary mr-3">
+      <h2 id="fridayCard">Friday</h2>
+      <li id="temp4"></li>
+      <li id="humidity4"></li>
+      <img id="icon4" src="" alt="">
+    </div>
   </div>
   <script src="./assets/script.js"></script>
 </body>
